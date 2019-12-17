@@ -1,0 +1,116 @@
+current directory: /home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/nio4r-2.5.2/ext/nio4r
+/home/vagrant/.rbenv/versions/2.3.1/bin/ruby -r ./siteconf20191217-14730-vrghzd.rb extconf.rb
+checking for unistd.h... yes
+checking for linux/aio_abi.h... yes
+checking for sys/select.h... yes
+checking for port_event_t in poll.h... no
+checking for sys/epoll.h... yes
+checking for sys/event.h... no
+checking for port_event_t in port.h... no
+checking for sys/resource.h... yes
+creating Makefile
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/extensions/x86_64-linux/2.3.0-static/nio4r-2.5.2/mkmf.log
+
+current directory: /home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/nio4r-2.5.2/ext/nio4r
+make "DESTDIR=" clean
+
+current directory: /home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/nio4r-2.5.2/ext/nio4r
+make "DESTDIR="
+compiling monitor.c
+compiling nio4r_ext.c
+nio4r_ext.c:7 から include されたファイル中:
+../libev/ev.c:511:48: 警告: コメント内に "/*" があります
+In file included from nio4r_ext.c:7:
+../libev/ev.c: In function ‘ecb_binary32_to_binary16’:
+../libev/ev.c:1302: 警告: 符合付きと符合無しの整数式同士の比較です
+In file included from nio4r_ext.c:7:
+../libev/ev.c: トップレベル:
+../libev/ev.c:1867: 警告: ‘ev_default_loop_ptr’ initialized and declared ‘extern’
+../libev/ev.c: In function ‘array_nextsize’:
+../libev/ev.c:1978: 警告: 符合付きと符合無しの整数式同士の比較です
+In file included from ../libev/ev.c:2742,
+                 from nio4r_ext.c:7:
+../libev/ev_epoll.c: In function ‘epoll_modify’:
+../libev/ev_epoll.c:134: 警告: カンマ演算子の左側の式に効力がありません
+In file included from ../libev/ev.c:2745,
+                 from nio4r_ext.c:7:
+../libev/ev_linuxaio.c: In function ‘linuxaio_modify’:
+../libev/ev_linuxaio.c:289: 警告: ISO C90 forbids mixed declarations and code
+../libev/ev_linuxaio.c:304: 警告: カンマ演算子の左側の式に効力がありません
+../libev/ev_linuxaio.c: In function ‘linuxaio_parse_events’:
+../libev/ev_linuxaio.c:344: 警告: カンマ演算子の左側の式に効力がありません
+../libev/ev_linuxaio.c: In function ‘linuxaio_poll’:
+../libev/ev_linuxaio.c:553: 警告: カンマ演算子の左側の式に効力がありません
+../libev/ev_linuxaio.c: In function ‘linuxaio_init’:
+../libev/ev_linuxaio.c:592: 警告: カンマ演算子の左側の式に効力がありません
+../libev/ev_linuxaio.c:592: 警告: カンマ演算子の左側の式に効力がありません
+../libev/ev_linuxaio.c:592: 警告: カンマ演算子の左側の式に効力がありません
+../libev/ev_linuxaio.c:592: 警告: カンマ演算子の左側の式に効力がありません
+../libev/ev_linuxaio.c:592: 警告: カンマ演算子の左側の式に効力がありません
+../libev/ev_linuxaio.c:592: 警告: カンマ演算子の左側の式に効力がありません
+../libev/ev_linuxaio.c:592: 警告: カンマ演算子の左側の式に効力がありません
+../libev/ev_linuxaio.c:592: 警告: カンマ演算子の左側の式に効力がありません
+../libev/ev_linuxaio.c:592: 警告: カンマ演算子の左側の式に効力がありません
+../libev/ev_linuxaio.c: In function ‘linuxaio_fork’:
+../libev/ev_linuxaio.c:636: 警告: カンマ演算子の左側の式に効力がありません
+../libev/ev_linuxaio.c:636: 警告: カンマ演算子の左側の式に効力がありません
+In file included from ../libev/ev.c:2748,
+                 from nio4r_ext.c:7:
+../libev/ev_poll.c: In function ‘poll_poll’:
+../libev/ev_poll.c:113: 警告: カンマ演算子の左側の式に効力がありません
+../libev/ev_poll.c:121: 警告: カンマ演算子の左側の式に効力がありません
+In file included from nio4r_ext.c:7:
+../libev/ev.c: In function ‘verify_watcher’:
+../libev/ev.c:3181: 警告: カンマ演算子の左側の式に効力がありません
+../libev/ev.c:3184: 警告: カンマ演算子の左側の式に効力がありません
+../libev/ev.c: In function ‘verify_heap’:
+../libev/ev.c:3195: 警告: カンマ演算子の左側の式に効力がありません
+../libev/ev.c:3196: 警告: カンマ演算子の左側の式に効力がありません
+../libev/ev.c:3197: 警告: カンマ演算子の左側の式に効力がありません
+../libev/ev.c: In function ‘array_verify’:
+../libev/ev.c:3209: 警告: カンマ演算子の左側の式に効力がありません
+../libev/ev.c: In function ‘ev_verify’:
+../libev/ev.c:3227: 警告: カンマ演算子の左側の式に効力がありません
+../libev/ev.c:3240: 警告: カンマ演算子の左側の式に効力がありません
+../libev/ev.c:3244: 警告: カンマ演算子の左側の式に効力がありません
+../libev/ev.c:3245: 警告: カンマ演算子の左側の式に効力がありません
+../libev/ev.c: In function ‘timers_reify’:
+../libev/ev.c:3431: 警告: カンマ演算子の左側の式に効力がありません
+../libev/ev.c: In function ‘periodics_reify’:
+../libev/ev.c:3494: 警告: カンマ演算子の左側の式に効力がありません
+../libev/ev.c: In function ‘ev_run’:
+../libev/ev.c:3656: 警告: カンマ演算子の左側の式に効力がありません
+../libev/ev.c:3824: 警告: カンマ演算子の左側の式に効力がありません
+../libev/ev.c: In function ‘ev_io_start’:
+../libev/ev.c:3999: 警告: カンマ演算子の左側の式に効力がありません
+../libev/ev.c:4000: 警告: カンマ演算子の左側の式に効力がありません
+../libev/ev.c:4012: 警告: カンマ演算子の左側の式に効力がありません
+../libev/ev.c: In function ‘ev_io_stop’:
+../libev/ev.c:4028: 警告: カンマ演算子の左側の式に効力がありません
+../libev/ev.c: In function ‘ev_timer_start’:
+../libev/ev.c:4052: 警告: カンマ演算子の左側の式に効力がありません
+../libev/ev.c: In function ‘ev_timer_stop’:
+../libev/ev.c:4081: 警告: カンマ演算子の左側の式に効力がありません
+../libev/ev.c: In function ‘ev_periodic_start’:
+../libev/ev.c:4145: 警告: カンマ演算子の左側の式に効力がありません
+../libev/ev.c: In function ‘ev_periodic_stop’:
+../libev/ev.c:4178: 警告: カンマ演算子の左側の式に効力がありません
+../libev/ev.c: In function ‘ev_signal_start’:
+../libev/ev.c:4217: 警告: カンマ演算子の左側の式に効力がありません
+../libev/ev.c:4220: 警告: カンマ演算子の左側の式に効力がありません
+../libev/ev.c: In function ‘ev_child_start’:
+../libev/ev.c:4339: 警告: カンマ演算子の左側の式に効力がありません
+../libev/ev.c: In function ‘ev_embed_start’:
+../libev/ev.c:4924: 警告: カンマ演算子の左側の式に効力がありません
+../libev/ev.c:5268:27: 警告: コメント内に "/*" があります
+../libev/ev.c:5269:27: 警告: コメント内に "/*" があります
+compiling selector.c
+compiling bytebuffer.c
+linking shared-object nio4r_ext.so
+
+current directory: /home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/nio4r-2.5.2/ext/nio4r
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 nio4r_ext.so ./.gem.20191217-14730-1liff69

@@ -1,0 +1,192 @@
+current directory: /home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/mini_racer-0.2.8/ext/mini_racer_extension
+/home/vagrant/.rbenv/versions/2.3.1/bin/ruby -r ./siteconf20191217-18785-18b8fal.rb extconf.rb
+checking for main() in -lpthread... yes
+<stdin>:2:5: error: #error A compiler that supports at least C++11 is required in order to compile this project.
+
+
+WARNING: C++11 support is required for compiling mini_racer. Please make sure
+you are using a compiler that supports at least C++11. Examples of such
+compilers are GCC 4.7+ and Clang 3.2+.
+
+If you are using Travis, consider either migrating your build to Ubuntu Trusty or
+installing GCC 4.8. See mini_racer's README.md for more information.
+
+
+creating Makefile
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/extensions/x86_64-linux/2.3.0-static/mini_racer-0.2.8/mkmf.log
+
+current directory: /home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/mini_racer-0.2.8/ext/mini_racer_extension
+make "DESTDIR=" clean
+
+current directory: /home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/mini_racer-0.2.8/ext/mini_racer_extension
+make "DESTDIR="
+compiling mini_racer_extension.cc
+mini_racer_extension.cc:12:18: error: atomic: そのようなファイルやディレクトリはありません
+In file included from /home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:25,
+                 from mini_racer_extension.cc:5:
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8-internal.h:60: 警告: ISO C++ forbids declaration of ‘constexpr’ with no type
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8-internal.h:60: error: ‘constexpr’ declared as an ‘inline’ field
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8-internal.h:60: 警告: ‘always_inline’ attribute ignored
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8-internal.h:60: error: expected ‘;’ before ‘bool’
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8-internal.h:74: error: expected ‘;’ before ‘}’ token
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8-internal.h:85: 警告: ISO C++ forbids declaration of ‘constexpr’ with no type
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8-internal.h:85: error: ‘constexpr’ declared as an ‘inline’ field
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8-internal.h:85: 警告: ‘always_inline’ attribute ignored
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8-internal.h:85: error: expected ‘;’ before ‘bool’
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8-internal.h:89: error: expected ‘;’ before ‘}’ token
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8-internal.h:107: error: expected constructor, destructor, or type conversion before ‘bool’
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8-internal.h:108: error: expected constructor, destructor, or type conversion before ‘bool’
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8-internal.h:110: error: ‘constexpr’ does not name a type
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8-internal.h:187: 警告: ISO C++ forbids declaration of ‘constexpr’ with no type
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8-internal.h:187: error: expected ‘;’ before ‘int’
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8-internal.h:204: error: ‘constexpr’ does not name a type
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8-internal.h:208: 警告: ISO C++ forbids declaration of ‘constexpr’ with no type
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8-internal.h:208: error: ‘constexpr’ declared as an ‘inline’ field
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8-internal.h:208: 警告: ‘always_inline’ attribute ignored
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8-internal.h:208: error: expected ‘;’ before ‘bool’
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8-internal.h:212: error: expected ‘;’ before ‘inline’
+In file included from mini_racer_extension.cc:5:
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h: In constructor ‘v8::Local<T>::Local()’:
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:180: error: ‘nullptr’ was not declared in this scope
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h: In member function ‘bool v8::Local<T>::IsEmpty() const’:
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:195: error: ‘nullptr’ was not declared in this scope
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h: In member function ‘void v8::Local<T>::Clear()’:
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:200: error: ‘nullptr’ was not declared in this scope
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h: In member function ‘bool v8::Local<T>::operator==(const v8::Local<S>&) const’:
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:216: error: ‘nullptr’ was not declared in this scope
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:217: error: ‘nullptr’ was not declared in this scope
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h: In member function ‘bool v8::Local<T>::operator==(const v8::PersistentBase<S>&) const’:
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:225: error: ‘nullptr’ was not declared in this scope
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:226: error: ‘nullptr’ was not declared in this scope
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h: At global scope:
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:316: error: expected unqualified-id before ‘using’
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h: In constructor ‘v8::MaybeLocal<T>::MaybeLocal()’:
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:333: error: ‘nullptr’ was not declared in this scope
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h: In member function ‘bool v8::MaybeLocal<T>::IsEmpty() const’:
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:340: error: ‘nullptr’ was not declared in this scope
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h: In member function ‘bool v8::MaybeLocal<T>::ToLocal(v8::Local<S>*) const’:
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:348: error: ‘nullptr’ was not declared in this scope
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h: In constructor ‘v8::Eternal<T>::Eternal()’:
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:377: error: ‘nullptr’ was not declared in this scope
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h: In constructor ‘v8::Eternal<T>::Eternal(v8::Isolate*, v8::Local<S>)’:
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:379: error: ‘nullptr’ was not declared in this scope
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h: In member function ‘bool v8::Eternal<T>::IsEmpty() const’:
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:384: error: ‘nullptr’ was not declared in this scope
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h: In member function ‘bool v8::PersistentBase<T>::IsEmpty() const’:
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:470: error: ‘nullptr’ was not declared in this scope
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h: In member function ‘bool v8::PersistentBase<T>::operator==(const v8::PersistentBase<S>&) const’:
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:481: error: ‘nullptr’ was not declared in this scope
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:482: error: ‘nullptr’ was not declared in this scope
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h: In member function ‘bool v8::PersistentBase<T>::operator==(const v8::Local<S>&) const’:
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:490: error: ‘nullptr’ was not declared in this scope
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:491: error: ‘nullptr’ was not declared in this scope
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h: In constructor ‘v8::Persistent<T, M>::Persistent()’:
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:666: error: ‘nullptr’ was not declared in this scope
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h: In copy constructor ‘v8::Persistent<T, M>::Persistent(const v8::Persistent<T, M>&)’:
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:693: error: ‘nullptr’ was not declared in this scope
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h: In constructor ‘v8::Global<T>::Global()’:
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:760: error: ‘nullptr’ was not declared in this scope
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h: In constructor ‘v8::Global<T>::Global(v8::Global<T>&&)’:
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:785: error: ‘nullptr’ was not declared in this scope
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h: In member function ‘v8::Global<T>& v8::Global<T>::operator=(v8::Global<S>&&)’:
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:797: error: ‘nullptr’ was not declared in this scope
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h: At global scope:
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:823: error: expected unqualified-id before ‘using’
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:1230: error: ‘nullptr’ was not declared in this scope
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:1407: error: function definition does not declare parameters
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:1296: error: ‘nullptr’ was not declared in this scope
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:1298: error: ‘nullptr’ was not declared in this scope
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h: In constructor ‘v8::ScriptCompiler::CachedData::CachedData()’:
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:1265: error: ‘nullptr’ was not declared in this scope
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h: In constructor ‘v8::RegisterState::RegisterState()’:
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:1804: error: ‘nullptr’ was not declared in this scope
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h: At global scope:
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:1819: error: ‘nullptr’ was not declared in this scope
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:1819: 警告: ISO C++ forbids initialization of member ‘start’
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:1819: 警告: making ‘start’ static
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:1819: error: invalid in-class initialization of static data member of non-integral type ‘const void*’
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:1820: 警告: ISO C++ forbids initialization of member ‘length_in_bytes’
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:1820: 警告: making ‘length_in_bytes’ static
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:1820: error: ISO C++ forbids in-class initialization of non-const static member ‘length_in_bytes’
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:2518: 警告: ISO C++ forbids declaration of ‘constexpr’ with no type
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:2518: error: expected ‘;’ before ‘int’
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:2681: error: expected ‘;’ before ‘override’
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:2714: error: expected ‘;’ before ‘override’
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:2597: error: ‘nullptr’ was not declared in this scope
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:3076: error: ‘nullptr’ was not declared in this scope
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:3083: error: ‘nullptr’ was not declared in this scope
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:3328: error: ‘nullptr’ was not declared in this scope
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:3346: error: ‘nullptr’ was not declared in this scope
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h: In member function ‘v8::MaybeLocal<v8::Object> v8::Function::NewInstance(v8::Local<v8::Context>) const’:
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:3998: error: ‘nullptr’ was not declared in this scope
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h: At global scope:
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4200: error: ‘std::nullptr_t’ has not been declared
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4200: error: ‘nullptr’ was not declared in this scope
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4246: error: ‘std::nullptr_t’ has not been declared
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4289: error: ‘constexpr’ does not name a type
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4291: error: ‘constexpr’ does not name a type
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4294: error: ‘constexpr’ does not name a type
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4296: error: ‘constexpr’ does not name a type
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4299: error: ‘nullptr’ was not declared in this scope
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4299: 警告: ISO C++ forbids initialization of member ‘data_’
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4299: 警告: making ‘data_’ static
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4300: 警告: ISO C++ forbids initialization of member ‘size_’
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4300: 警告: making ‘size_’ static
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4300: error: ISO C++ forbids in-class initialization of non-const static member ‘size_’
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4308: 警告: ISO C++ forbids initialization of member ‘size’
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4308: 警告: making ‘size’ static
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4308: error: ISO C++ forbids in-class initialization of non-const static member ‘size’
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h: In constructor ‘v8::OwnedBuffer::OwnedBuffer(std::unique_ptr<const uint8_t [], std::default_delete<const uint8_t []> >, size_t)’:
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4310: error: ‘size_t v8::OwnedBuffer::size’ is a static data member; it can only be initialized at its definition
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h: At global scope:
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4367: error: function definition does not declare parameters
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h: In instantiation of ‘v8::MemorySpan<const unsigned char>’:
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4355:   instantiated from here
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4299: error: invalid in-class initialization of static data member of non-integral type ‘const unsigned char*’
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4300: error: ISO C++ forbids in-class initialization of non-const static member ‘v8::MemorySpan<const unsigned char>::size_’
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h: In constructor ‘v8::WasmModuleObject::BufferReference::BufferReference(v8::MemorySpan<const unsigned char>)’:
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4355: error: ‘class v8::MemorySpan<const unsigned char>’ has no member named ‘data’
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4355: error: ‘class v8::MemorySpan<const unsigned char>’ has no member named ‘size’
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h: In member function ‘v8::WasmModuleObject::BufferReference::operator v8::MemorySpan<const unsigned char>() const’:
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4357: error: too many initializers for ‘v8::MemorySpan<const unsigned char>’
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h: In static member function ‘static v8::MemorySpan<const unsigned char> v8::WasmModuleObject::AsReference(const v8::OwnedBuffer&)’:
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4438: error: too many initializers for ‘v8::MemorySpan<const unsigned char>’
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h: At global scope:
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4454: error: variable ‘v8::WasmStreaming v8::final’ has initializer but incomplete type
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4455: error: expected primary-expression before ‘public’
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4455: error: expected ‘}’ before ‘public’
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4455: error: expected ‘,’ or ‘;’ before ‘public’
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4471: error: ‘WasmStreamingImpl’ was not declared in this scope
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4471: error: template argument 1 is invalid
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4471: error: template argument 2 is invalid
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4471: error: expected ‘)’ before ‘impl’
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4473: error: expected constructor, destructor, or type conversion before ‘;’ token
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4518: error: expected unqualified-id before ‘private’
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4524: error: variable ‘WasmModuleObjectBuilderStreaming final’ has initializer but incomplete type
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4525: error: expected primary-expression before ‘public’
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4525: error: expected ‘}’ before ‘public’
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4525: error: expected ‘,’ or ‘;’ before ‘public’
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4537: error: variable or field ‘Abort’ declared void
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4537: error: ‘MaybeLocal’ was not declared in this scope
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4537: error: ‘Value’ was not declared in this scope
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4537: error: ‘exception’ was not declared in this scope
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4538: error: expected constructor, destructor, or type conversion before ‘<’ token
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4540: error: expected constructor, destructor, or type conversion before ‘=’ token
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4542: error: expected unqualified-id before ‘private’
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4545: error: expected ‘)’ before ‘&&’ token
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4548: error: ‘WasmModuleObjectBuilderStreaming& operator=(const WasmModuleObjectBuilderStreaming&)’ must be a nonstatic member function
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4550: error: ‘WasmModuleObjectBuilderStreaming& operator=(WasmModuleObjectBuilderStreaming&&)’ must be a nonstatic member function
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4551: error: expected constructor, destructor, or type conversion before ‘*’ token
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4563: error: expected constructor, destructor, or type conversion before ‘<’ token
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4565: error: ‘internal’ was not declared in this scope
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4565: error: template argument 1 is invalid
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4565: error: invalid type in declaration before ‘;’ token
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4566: error: expected declaration before ‘}’ token
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:3470: 警告: inline function ‘void* v8::Object::GetAlignedPointerFromInternalField(int)’ used but never defined
+/home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/libv8-7.3.492.27.1-x86_64-linux/vendor/v8/include/v8.h:4515: 警告: ‘std::shared_ptr<v8::WasmStreaming> v8::Unpack(v8::Isolate*, v8::Local<v8::Value>)’ declared ‘static’ but never defined
+make: *** [mini_racer_extension.o] エラー 1
+
+make failed, exit code 2

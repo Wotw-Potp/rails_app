@@ -1,0 +1,21 @@
+current directory: /home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/byebug-11.0.1/ext/byebug
+/home/vagrant/.rbenv/versions/2.3.1/bin/ruby -r ./siteconf20191217-14730-f1wwxy.rb extconf.rb
+creating Makefile
+
+current directory: /home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR=" clean
+make: 警告: ファイル `Makefile' の修正時刻が 0.031 秒分未来の時刻です
+make: 警告:  時刻のずれを検出. 不完全なビルド結果になるかもしれません.
+
+current directory: /home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR="
+compiling locker.c
+compiling byebug.c
+compiling context.c
+compiling breakpoint.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+current directory: /home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20191217-14730-zd4zns/byebug

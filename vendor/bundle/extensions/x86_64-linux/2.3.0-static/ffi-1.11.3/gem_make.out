@@ -1,0 +1,55 @@
+current directory: /home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/ffi-1.11.3/ext/ffi_c
+/home/vagrant/.rbenv/versions/2.3.1/bin/ruby -r ./siteconf20191217-14730-1hw02g7.rb extconf.rb
+checking for ffi_call() in -lffi... yes
+checking for ffi_closure_alloc()... yes
+checking for shlwapi.h... no
+checking for rb_thread_call_without_gvl()... yes
+checking for ruby_native_thread_p()... yes
+checking for ruby_thread_has_gvl_p()... yes
+checking for ffi_prep_cif_var()... no
+checking for ffi_raw_call()... yes
+checking for ffi_prep_raw_closure()... yes
+creating extconf.h
+creating Makefile
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/extensions/x86_64-linux/2.3.0-static/ffi-1.11.3/mkmf.log
+
+current directory: /home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/ffi-1.11.3/ext/ffi_c
+make "DESTDIR=" clean
+make: 警告: ファイル `Makefile' の修正時刻が 0.021 秒分未来の時刻です
+make: 警告:  時刻のずれを検出. 不完全なビルド結果になるかもしれません.
+
+current directory: /home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/ffi-1.11.3/ext/ffi_c
+make "DESTDIR="
+make: 警告: ファイル `Makefile' の修正時刻が 0.0029 秒分未来の時刻です
+compiling Thread.c
+compiling Buffer.c
+compiling DynamicLibrary.c
+compiling Variadic.c
+compiling ffi.c
+compiling Pointer.c
+compiling MemoryPointer.c
+compiling Platform.c
+compiling LongDouble.c
+compiling Function.c
+compiling MappedType.c
+compiling Type.c
+compiling Types.c
+compiling StructLayout.c
+compiling ArrayType.c
+compiling LastError.c
+compiling Struct.c
+compiling Call.c
+compiling MethodHandle.c
+compiling AbstractMemory.c
+compiling FunctionInfo.c
+compiling ClosurePool.c
+compiling StructByValue.c
+linking shared-object ffi_c.so
+make: 警告:  時刻のずれを検出. 不完全なビルド結果になるかもしれません.
+
+current directory: /home/vagrant/vagrant_data/rails_app/myapp/vendor/bundle/gems/ffi-1.11.3/ext/ffi_c
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 ffi_c.so ./.gem.20191217-14730-s9f0h7
